@@ -1,0 +1,21 @@
+{
+  "name": "tools",
+  "version": "0.0.1",
+  "description": "seandou's tools",
+  "main": "index.js",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/seandou/tools.git"
+  },
+  "keywords": [
+    "tools"
+  ],
+  "author": "douguohui@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/seandou/tools/issues"
+  },
+  "homepage": "https://github.com/seandou/tools#readme"
+}
