@@ -1,9 +1,8 @@
 'use strict';
 
-const commands = require('./commands');
+const path = require('path');
 
-module.exports = function(t, _) {
-
-  t.alias('npm_install_global_modules', commands.npm.install_global_modules);
-
+module.exports = function(_) {
+  _.require(path.join(__dirname, 'commands'));
+  _.require(path.join(__dirname, 'documents'));
 };
