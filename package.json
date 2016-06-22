@@ -4,6 +4,9 @@
   "description": "seandou's tools",
   "main": "index.js",
   "scripts": {
+    "version:major": "npm version major && git push --follow-tags",
+    "version:minor": "npm version minor && git push --follow-tags",
+    "version:patch": "npm version patch && git push --follow-tags"    
   },
   "repository": {
     "type": "git",
