@@ -8,4 +8,6 @@ module.exports = function(_) {
   _.require(path.join(__dirname, 'sites'));
 
   require('./mac')(_);
+
+  alias('version_semver', 'http://semver.org/lang/zh-CN/');
 };
