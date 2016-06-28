@@ -1,9 +1,8 @@
 'use strict';
 
 const mysql_grant = `
-create user 'username'@'%' identified by 'password';
-grant all privileges on dbname.* to 'user'@'%';
-grant all privileges on dbname.* to 'user'@'localhost' identified by 'password' with grant option;
+grant all privileges on advert.* to 'advert'@'%' identified by 'advert' with grant option;
+grant all privileges on advert.* to 'advert'@'localhost' identified by 'advert' with grant option;
 `;
 
 module.exports = function(_) {
