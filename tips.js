@@ -16,4 +16,6 @@ Node Completions
 EJS
   `);
 
+  url_alias('free_books', 'https://github.com/vhf/free-programming-books/blob/master/free-programming-books-zh.md');
+
 };
