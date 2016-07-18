@@ -18,6 +18,10 @@ Node Completions
 EJS
   `);
 
+  note_alias('vs', `
+https://cn.vuejs.org/guide/comparison.html    
+  `);
+
   url_alias('free_books', 'https://github.com/vhf/free-programming-books/blob/master/free-programming-books-zh.md');
 
 };
