@@ -8,6 +8,7 @@ module.exports = function(_) {
   url_alias('design_sketch_app_sources', 'http://www.sketchappsources.com/');
 
   url_alias('css_beautifier', 'http://html.fwpolice.com/css/');
+  url_alias('js_beautifier', 'http://jsbeautifier.org/');
 
   note_alias('sublime_text_packages', `
 EditorConfig
