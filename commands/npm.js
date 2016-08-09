@@ -7,7 +7,7 @@ npm install -g ava
 npm install -g koa-ship-cli babel-cli
 npm install -g nodemon pm2 shipit-cli
 npm install -g open-doc npminfo npmlist
-npm install -g http-server sloc
+npm install -g http-server pushstate-server sloc
 npm install -g gitbook-cli
 npm install -g geek-toolbox
 `;
