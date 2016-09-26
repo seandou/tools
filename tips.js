@@ -25,4 +25,6 @@ https://cn.vuejs.org/guide/comparison.html
 
   url_alias('free_books', 'https://github.com/vhf/free-programming-books/blob/master/free-programming-books-zh.md');
 
+  url_alias('os_news', 'http://www.oschina.net/news/list?show=project');
+
 };
